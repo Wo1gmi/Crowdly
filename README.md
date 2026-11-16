@@ -41,7 +41,7 @@ npm run preview # просмотр production-сборки
 
 Удалённый репозиторий: `git@github.com:Wo1gmi/Crowdly.git`.
 
-Workflow `.github/workflows/pages.yml` запускает `npm ci`, тесты, сборку и публикует `dist` после push в `main`. В GitHub нужно включить **Settings → Pages → Source: GitHub Actions**. Для приватного репозитория доступность Pages зависит от тарифа GitHub.
+Workflow `.github/workflows/pages.yml` запускает `npm ci`, тесты, сборку и публикует `dist` после push в `main`. В GitHub нужно включить **Settings → Pages → Source: GitHub Actions**, затем открыть Actions → Deploy Crowdly to GitHub Pages → Run workflow (main). В дальнейшем каждый push в main публикует обновление автоматически. Для приватного репозитория доступность Pages зависит от тарифа GitHub.
 
 Приложение использует hash-навигацию (`#/` не требуется: `#dashboard`, `#simulator` и т. д.), поэтому переходы и обновление страниц работают на статическом хостинге. `base: './'` позволяет размещать сборку в `/Crowdly/` без абсолютных путей к ассетам.
 
