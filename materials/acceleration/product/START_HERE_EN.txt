@@ -1,0 +1,17 @@
+CROWDLY — NEW LOCATION ECONOMICS
+Version 0.2.1 · 16 November 2026 · All monetary values are Russian rubles (RUB)
+
+TRY YOUR OWN BUSINESS
+Unzip the package and open Crowdly_Trial.html in a modern browser such as Chrome or Edge. Download and open the actual file rather than an email preview. Choose EN in the header, then “Model my business”. Select a business format and enter a project name and city. All calculations use RUB; there is no currency selector. Replace ticket size, daily capacity, rent, other expenses and opening investment with your own values.
+
+Review daily break-even visits, affordable rent, cash flow, funding need and payback. Change utilization, save variants and compare. Data & method shows where each number comes from. Export provides CSV and a JSON backup; Report provides the browser print/PDF function.
+
+No account, API key, competitor visits or server setup is required. JavaScript and CSS are embedded. Core calculations do not require internet access. Project values stay in this browser and are not sent to a server by the application. Download JSON before switching devices. Restricted local storage or private browsing may prevent persistence; the calculator remains usable.
+
+New-location volume is a utilization assumption, not a measured local demand forecast. Optional own monthly visits replace that assumption. Zero is valid data. Volume is capped at physical capacity. Downside/base/upside are deterministic −30%/0%/+30% stress scenarios, not confidence intervals. Default values are illustrative planning examples, not market benchmarks. Both interface languages use RUB.
+
+Old non-RUB projects are neither relabeled nor silently converted. The app offers the original JSON backup and requires a separate “Continue in RUB” action after downloading it. New non-RUB imports are rejected.
+
+Debt, VAT, depreciation, lease deposits, separate working-capital changes and terminal value are not modeled. The tax input is a simplified manual assumption.
+
+62 automated checks pass and the production build succeeds. Browser checks covered RUB calculations, RU/EN without currency changes, the advanced form without a currency selector, and recovery of old foreign-currency data. The portable file was checked for embedded assets and JavaScript syntax. Direct file:// execution could not be tested in the cloud browser because that protocol is prohibited. UI JSON upload was blocked by the browser permission gate; import logic is covered by automated tests. Real-world demand accuracy has not been independently validated.

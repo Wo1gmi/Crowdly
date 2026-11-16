@@ -1,0 +1,331 @@
+{
+  "product_version": "0.2.1",
+  "date": "2026-11-16",
+  "currency": "RUB",
+  "interface_languages": [
+    "ru",
+    "en"
+  ],
+  "start_here": "START_HERE_RU.txt",
+  "standalone_product": "product/Crowdly_Trial.html",
+  "site_url": "https://crowdly-studio-185aab90.stepanseleznev738.chatgpt.site",
+  "site_access": "owner-only, ChatGPT sign-in; use packaged HTML for independent teammate access",
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6afae47aede08191a20799346cb336b3",
+  "source_commit": "05c604870407423435fcc02f60ecbc73fdfa5851",
+  "source_branch": "codex/crowdly-acceleration",
+  "source_base_commit": "ec9cc3f23eab19332cd92fd12538c13253c37a3a",
+  "github_repository": "https://github.com/Wo1gmi/Crowdly",
+  "github_push": "not performed; credentials unavailable; dry-run failed",
+  "source_saved_to": "Sites source repository",
+  "tests_passed": 62,
+  "production_build": "passed",
+  "known_limits": [
+    "Unvalidated local demand; planning scenarios only",
+    "No multi-user backend or paid subscription",
+    "Cloud browser did not permit file:// opening or JSON file upload",
+    "Presentation assembly source requires the original ArtifactTool environment; PPTX is directly editable"
+  ],
+  "files": {
+    "START_HERE_RU.txt": {
+      "bytes": 8695,
+      "sha256": "0171805634d8377af806d040c92d5d2d407f30fc7eb6562d52a87881adf3ec9d"
+    },
+    "business/BUSINESS_MODEL_RU.md": {
+      "bytes": 18727,
+      "sha256": "e6a599d2a1a704f0b1ee63f1690f70d1ba014a72bc3b20913115d41f2d88e339"
+    },
+    "business/Crowdly_Business_Model.xlsx": {
+      "bytes": 43706,
+      "sha256": "5ac1ddfa81a0558bd8c024087241e2f8d2ccd65dbde53f3e24c59b02d8c7504e"
+    },
+    "docs/ACCELERATION.md": {
+      "bytes": 5993,
+      "sha256": "8772cdabd57a0fcc0f4ce9820d558e861d3c5004753fab0726065fd4c7aceda5"
+    },
+    "docs/BUSINESS_MODEL_RU.md": {
+      "bytes": 18727,
+      "sha256": "e6a599d2a1a704f0b1ee63f1690f70d1ba014a72bc3b20913115d41f2d88e339"
+    },
+    "docs/DECK_AUDIT.md": {
+      "bytes": 22332,
+      "sha256": "9dadcb56a3be150f6aedf3b9b330551788b0ea2dd07c0535803cebce90e077da"
+    },
+    "docs/MODEL.md": {
+      "bytes": 23839,
+      "sha256": "93141dfe4c71c667420d1657b0c08aa961a71a00599d10e8b4905274a54e0aec"
+    },
+    "docs/MODEL_AUDIT.md": {
+      "bytes": 24040,
+      "sha256": "d7f8bf321df553327a063a711eb47f98289973f2f3ea42895b61133e147eb5db"
+    },
+    "docs/QA.md": {
+      "bytes": 9848,
+      "sha256": "8c0097d9843c15d3d43b7733a6534850aab57f855396874b3afafdeaf50fcf7d"
+    },
+    "docs/REQUIREMENTS.md": {
+      "bytes": 5497,
+      "sha256": "5ba9ef74e849cb7fdafb81606fe4d6cdf1f6124e13d407119c9cd67333792079"
+    },
+    "docs/RESEARCH.md": {
+      "bytes": 21379,
+      "sha256": "11d11ec57b4d3cb86fce8aaff0162c85637dfbd011885e20b05d3df608bcc1ec"
+    },
+    "docs/STRATEGY.md": {
+      "bytes": 15533,
+      "sha256": "93654a343f28026a7a5d4d66ea87ed51f1e48eeaa95aac7946cf38b6ada6c2c1"
+    },
+    "presentation/Crowdly_Accelerated.pdf": {
+      "bytes": 362743,
+      "sha256": "3b44bc0a93b639a6c8d5eee9945375d7fef1f0ee2295fa064205aa975c8f2842"
+    },
+    "presentation/Crowdly_Accelerated.pptx": {
+      "bytes": 100767,
+      "sha256": "fe6e1b9ce0df6e1afc408d6c93de7f0a3fa3e77df7fa7b9e53632d5e18c182fa"
+    },
+    "presentation/Crowdly_Accelerated_source.mjs": {
+      "bytes": 169119,
+      "sha256": "a66898914885df3d8a16ca51fe87a2f28df83426d018d1aeb908af96877fbab4"
+    },
+    "presentation/SOURCE_NOTES_RU.txt": {
+      "bytes": 1522,
+      "sha256": "69c247ad6d3ff1105ccbae9c3ca11ae132a5db1e8b9815b2b46a1335532d711c"
+    },
+    "product/Crowdly_Trial.html": {
+      "bytes": 511813,
+      "sha256": "e65c3cc551ba61e5b2cfe4a11eb96634ac8d88124a4f65a4640b455c4416d16b"
+    },
+    "product/START_HERE_EN.txt": {
+      "bytes": 2569,
+      "sha256": "57bf04a1c79e627acf5c2a4d77fb0d898e1a74bbb78ea38f12e38e4cf3d7b111"
+    },
+    "product/START_HERE_RU.txt": {
+      "bytes": 5663,
+      "sha256": "359b25e7621eb236e8733b8ec406eb8bfc55b80412a1f4a432d14a6b193b9409"
+    },
+    "source/Crowdly/.github/workflows/pages.yml": {
+      "bytes": 1020,
+      "sha256": "74a8ae96beb759e80a3a8b95688693840e8257e3157f7ea32ec6bacecc1a144b"
+    },
+    "source/Crowdly/.gitignore": {
+      "bytes": 91,
+      "sha256": "7e117e43c17ac6271ba40e122456bfdd58089cd9746fc57da3c0846158485c70"
+    },
+    "source/Crowdly/.openai/hosting.json": {
+      "bytes": 106,
+      "sha256": "27b939e50ea9cdba8e5b9b7995f8b4c9142f4cdd9f6fd1d96be30307e96eff6b"
+    },
+    "source/Crowdly/README.md": {
+      "bytes": 10958,
+      "sha256": "94969a416e2fa299fc7cfe7be361e245d8e9b129ac8918bdccb34dd6a1c05e68"
+    },
+    "source/Crowdly/docs/ACCELERATION.md": {
+      "bytes": 5993,
+      "sha256": "8772cdabd57a0fcc0f4ce9820d558e861d3c5004753fab0726065fd4c7aceda5"
+    },
+    "source/Crowdly/docs/BUSINESS_MODEL_RU.md": {
+      "bytes": 18727,
+      "sha256": "e6a599d2a1a704f0b1ee63f1690f70d1ba014a72bc3b20913115d41f2d88e339"
+    },
+    "source/Crowdly/docs/DECK_AUDIT.md": {
+      "bytes": 22332,
+      "sha256": "9dadcb56a3be150f6aedf3b9b330551788b0ea2dd07c0535803cebce90e077da"
+    },
+    "source/Crowdly/docs/MODEL.md": {
+      "bytes": 23839,
+      "sha256": "93141dfe4c71c667420d1657b0c08aa961a71a00599d10e8b4905274a54e0aec"
+    },
+    "source/Crowdly/docs/MODEL_AUDIT.md": {
+      "bytes": 24040,
+      "sha256": "d7f8bf321df553327a063a711eb47f98289973f2f3ea42895b61133e147eb5db"
+    },
+    "source/Crowdly/docs/QA.md": {
+      "bytes": 9848,
+      "sha256": "8c0097d9843c15d3d43b7733a6534850aab57f855396874b3afafdeaf50fcf7d"
+    },
+    "source/Crowdly/docs/REQUIREMENTS.md": {
+      "bytes": 5497,
+      "sha256": "5ba9ef74e849cb7fdafb81606fe4d6cdf1f6124e13d407119c9cd67333792079"
+    },
+    "source/Crowdly/docs/RESEARCH.md": {
+      "bytes": 21379,
+      "sha256": "11d11ec57b4d3cb86fce8aaff0162c85637dfbd011885e20b05d3df608bcc1ec"
+    },
+    "source/Crowdly/docs/STRATEGY.md": {
+      "bytes": 15533,
+      "sha256": "93654a343f28026a7a5d4d66ea87ed51f1e48eeaa95aac7946cf38b6ada6c2c1"
+    },
+    "source/Crowdly/index.html": {
+      "bytes": 662,
+      "sha256": "60cd38aea54b5e1e69e7f8d4e685f6426b612c03927bbfae002e525785c1258e"
+    },
+    "source/Crowdly/package-lock.json": {
+      "bytes": 36403,
+      "sha256": "ccf07654163284479e80021dd56a9069388ea2c85798d91dc9fba5c07444e1a9"
+    },
+    "source/Crowdly/package.json": {
+      "bytes": 581,
+      "sha256": "3ba8e6020e84dcd90588689d39344e87c1276e3086aa9380934346f859b5f885"
+    },
+    "source/Crowdly/public/examples/history-demo.csv": {
+      "bytes": 497,
+      "sha256": "8635349542e6c8c2fbd8b7c52a2096d7874f0a8cb69bce6245d76437b9220804"
+    },
+    "source/Crowdly/public/favicon.svg": {
+      "bytes": 336,
+      "sha256": "e4d335cf15cdb0341c9154247ee647f2133426aebf10460823534f8d3ba7c16c"
+    },
+    "source/Crowdly/scripts/build-portable.mjs": {
+      "bytes": 1645,
+      "sha256": "1a06179d04b40bf9de71e9a430fbe78119225b18569c5ae49699e05643f86e54"
+    },
+    "source/Crowdly/src/App.jsx": {
+      "bytes": 2111,
+      "sha256": "6153df3aaee31f95c00ff5d87d8678e68841b9e30ef348d726cef5f87d186878"
+    },
+    "source/Crowdly/src/WorkspaceApp.jsx": {
+      "bytes": 12220,
+      "sha256": "3fa4fe07087cb7f1f2ae1394fa42ac2c4f1a806e78b8b70791d439b7f3673e2d"
+    },
+    "source/Crowdly/src/components/PlannerCharts.jsx": {
+      "bytes": 2831,
+      "sha256": "1c9e5aa7b8c58ba8121c09287d2a7ea9285f8d24d85745d8bfe3970a30c86120"
+    },
+    "source/Crowdly/src/components/charts.jsx": {
+      "bytes": 4932,
+      "sha256": "21360b7deee5d4a28cedde7bf1d7622b436d22db61c3d088db2192e8870065ac"
+    },
+    "source/Crowdly/src/components/ui.jsx": {
+      "bytes": 3671,
+      "sha256": "593b4abe0eab9abd0fedd487c2d4a087ab52cfe8485363bf4021b4dd0ea4e554"
+    },
+    "source/Crowdly/src/data/plannerPresets.js": {
+      "bytes": 2353,
+      "sha256": "15acad001b8b994ce12699f8aee4118979ecf21afd7243c21a06435f5fb0e081"
+    },
+    "source/Crowdly/src/data/seed.js": {
+      "bytes": 4576,
+      "sha256": "4853262eed166d0f612bf9d30e59a2bc21420139a56ada748d1a8ad31c99a379"
+    },
+    "source/Crowdly/src/domain/demand.js": {
+      "bytes": 3144,
+      "sha256": "732f39d397c4aef7d5137b6100217dbee584a262218f7e209fa32e9bb925b457"
+    },
+    "source/Crowdly/src/domain/finance.js": {
+      "bytes": 3582,
+      "sha256": "cf57e31eb58afd92c96ca55047a8fba75ae0fe5ccac2a876d40fba58cb2dc228"
+    },
+    "source/Crowdly/src/domain/planner.js": {
+      "bytes": 7902,
+      "sha256": "03a98f4a43554d4ce4202c1ca3bc315be983bd1de2782daabad3f528545c75bd"
+    },
+    "source/Crowdly/src/domain/simulation.js": {
+      "bytes": 10849,
+      "sha256": "efa5f66d578603dc91403c534d98684c355c306ee9d0f8bd6da1fc141578405b"
+    },
+    "source/Crowdly/src/domain/validation.js": {
+      "bytes": 7525,
+      "sha256": "9ba4a72687215d68863a431eb1d45597d0be133bc4e6065f47fec76fa16df431"
+    },
+    "source/Crowdly/src/landing.css": {
+      "bytes": 32812,
+      "sha256": "7ac70beba2acc3d8221a2dc3fa106fee82f10d500de0fd8f0cdd79a4659e7a75"
+    },
+    "source/Crowdly/src/main.jsx": {
+      "bytes": 884,
+      "sha256": "84cb0adc6f6b647bedfdf33312cf3816fa5a618aeefc877e561c46733dcc21c7"
+    },
+    "source/Crowdly/src/pages/Analysis.jsx": {
+      "bytes": 9012,
+      "sha256": "991949d9e74fafc05e8b2b1f23613935d123e7ee4c92197b2ee12e1d1782308b"
+    },
+    "source/Crowdly/src/pages/Dashboard.jsx": {
+      "bytes": 5761,
+      "sha256": "a0358d554ab0d358a70306fd0f23078aa4708c493f232b6baa0bac5278f0ed28"
+    },
+    "source/Crowdly/src/pages/Data.jsx": {
+      "bytes": 12271,
+      "sha256": "e6b48446c12ccc11732d00ee7e83acb706d7dad1cea985119c581985747eb97f"
+    },
+    "source/Crowdly/src/pages/Landing.jsx": {
+      "bytes": 32741,
+      "sha256": "2b4ac9666bb633b15afd28a713e5619432666de8f5558ea62080cb5aac127f26"
+    },
+    "source/Crowdly/src/pages/Locations.jsx": {
+      "bytes": 7875,
+      "sha256": "0d21e94894f997b8f8e04e15edcc16e7ba5ed2253ead2f2f5104ecc78ea68be9"
+    },
+    "source/Crowdly/src/pages/Planner.jsx": {
+      "bytes": 50360,
+      "sha256": "de2d47ad8f11e8a8ec4212616b3d1b9e833800ef3c389e8ce61b4a44dc9ccd12"
+    },
+    "source/Crowdly/src/pages/Reports.jsx": {
+      "bytes": 8125,
+      "sha256": "c8f34316b83a57ed7caac2cc2280e1ca48375e29c279b4d407a9c29c1c9e4ef7"
+    },
+    "source/Crowdly/src/pages/Settings.jsx": {
+      "bytes": 9135,
+      "sha256": "4e299c2c80c25a9f6a79cbc6886cb879dacce3eee6c7956dc9f72f771f388981"
+    },
+    "source/Crowdly/src/pages/Simulator.jsx": {
+      "bytes": 9692,
+      "sha256": "fcf9158325d3cdddf8d2ce12fe18d54719d5b7fad8bdce41471343cd53db8c6e"
+    },
+    "source/Crowdly/src/pages/Tenants.jsx": {
+      "bytes": 5999,
+      "sha256": "3a0a8203b256e80d2f3ebcdb09ff53d932bf89c93b7d37df245e1d855681fc4e"
+    },
+    "source/Crowdly/src/planner.css": {
+      "bytes": 30058,
+      "sha256": "b0b3e5171d51e68192d71343f9f250abdad7298145f02e3cd1767e1dae95b283"
+    },
+    "source/Crowdly/src/services/csv.js": {
+      "bytes": 2036,
+      "sha256": "3254e157f900e70db1bde3b778ab4942919e40fd095dd47a05ed37502386bfe1"
+    },
+    "source/Crowdly/src/services/plannerStorage.js": {
+      "bytes": 3404,
+      "sha256": "e3a7dc388066a38a5d5fb8ac990e746f7f146d25d0fd77f62533801c75ce5aa4"
+    },
+    "source/Crowdly/src/services/storage.js": {
+      "bytes": 2283,
+      "sha256": "41c4ce1b935b4cb555b220ad88010180de0affbf55807fb9353a0da4ba21cca5"
+    },
+    "source/Crowdly/src/styles.css": {
+      "bytes": 31510,
+      "sha256": "cc9268d9920bfc8cf1bfc00077422562eaca0d4bb24057d4e2b732d9cb95dbcc"
+    },
+    "source/Crowdly/tests/exports.test.js": {
+      "bytes": 572,
+      "sha256": "b33e53c603b8f5c13e1e3b8ab9437837d4677386b8628ccd2a1088d29d0e8fea"
+    },
+    "source/Crowdly/tests/legacy-render.test.js": {
+      "bytes": 2065,
+      "sha256": "ccc811ad02e097ff94092bacb8c2fb007c3e5cb4e104baa15cdd8475b18b634a"
+    },
+    "source/Crowdly/tests/model.test.js": {
+      "bytes": 10345,
+      "sha256": "40e72defeab12ce5b58b5737c78b48ce3ad13ee8507c37db9d05e30e51d409e0"
+    },
+    "source/Crowdly/tests/planner-storage.test.js": {
+      "bytes": 12487,
+      "sha256": "3054d6a692aa1e18ea6e312c29365b0b6048b86059881f3de5737907a136067a"
+    },
+    "source/Crowdly/tests/planner.test.js": {
+      "bytes": 7208,
+      "sha256": "3cf0b3422ffb4c6c04464db0cbbe294e8b70ee27479c22c9ea44092433d51bc9"
+    },
+    "source/Crowdly/tests/portable.test.js": {
+      "bytes": 2036,
+      "sha256": "4a950bd41bd4b6b445b02b13207d2bc17d109643cb537d5d49995bb3e14ee8e8"
+    },
+    "source/Crowdly/vite.config.js": {
+      "bytes": 147,
+      "sha256": "ac59a4d591c055ed916bac3d663555e745d222af15fd41ce487a32538efdbffe"
+    },
+    "source/Crowdly_Acceleration.patch": {
+      "bytes": 743071,
+      "sha256": "45c50542745df25075ff0292199fc5f39752d44578b255a46179c604bbbbc340"
+    }
+  }
+}

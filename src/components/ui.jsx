@@ -1,7 +1,7 @@
 import React,{useEffect,useRef} from 'react';
 import {X,ArrowUpRight,ArrowDownRight,Info,Inbox} from 'lucide-react';
 export const fmt=(value,digits=0)=>new Intl.NumberFormat('ru-RU',{maximumFractionDigits:digits}).format(Number.isFinite(value)?value:0);
-export const currencySymbol=c=>({RUB:'₽',USD:'$',AED:'AED'}[c]||c);
+export const currencySymbol=c=>c==='RUB'?'₽':c;
 export const money=(v,c='RUB',compact=true)=>`${compact&&Math.abs(v)>=1e6?fmt(v/1e6,1)+' млн':fmt(v)} ${currencySymbol(c)}`;
 export const pct=v=>v==null?'—':`${fmt(v*100,1)}%`;
 export function Button({children,variant='',className='',...props}){return <button className={`button ${variant} ${className}`} {...props}>{children}</button>}

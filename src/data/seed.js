@@ -13,7 +13,7 @@ export function makeLocation(overrides={}) {return {
  ancillary:420,capex:320000000,fixedCosts:7000000,variableCost:300,
  revenueModel:'direct',occupancy:90,openMonth:0,tenants:structuredClone(tenantDefaults),...overrides
 };}
-export function makeProject(overrides={}) {return {
+export function makeProject(overrides={}) {if(Object.hasOwn(overrides,'currency')&&overrides.currency!=='RUB'){const error=new Error('Новый проект можно создать только в российских рублях (RUB). Значения другой валюты не преобразуются.');error.code='unsupported_currency';throw error;}return {
  id:uid(),name:'Новый проект',city:'Москва',currency:'RUB',startMonth:'2027-01',horizon:5,
  discount:20,taxRate:15,annualGrowth:3,costGrowth:4,outsideWeight:1.8,demandScale:1,
  rampMonths:6,seasonality:[1.22,1.12,1.04,0.94,0.89,0.84,0.82,0.89,0.99,1.09,1.12,1.04],
@@ -36,5 +36,5 @@ export function createSeed() {
  {id:'base',name:'Базовый сценарий',locationId:'target',price:1900,area:6500,capacity:650,quality:1,lat:55.872,lon:37.56,capex:320000000,demandMultiplier:1,costMultiplier:1,tenantShares:[40,25,20,15]},
  {id:'compact',name:'Компактный формат',locationId:'target',price:1700,area:4800,capacity:480,quality:0.95,lat:55.872,lon:37.56,capex:245000000,demandMultiplier:1,costMultiplier:0.85,tenantShares:[35,30,20,15]},
  {id:'premium-s',name:'Расширенный формат',locationId:'target',price:2300,area:8000,capacity:800,quality:1.2,lat:55.872,lon:37.56,capex:410000000,demandMultiplier:1,costMultiplier:1.15,tenantShares:[50,20,15,15]}]});
- return {version:1,activeProjectId:p.id,projects:[p],settings:{workspaceName:'Моя команда',displayName:'Светлана',compact:false},activity:[{id:uid(),text:'Открыт демонстрационный проект',at:new Date().toISOString()}]};
+ return {version:1,activeProjectId:p.id,projects:[p],settings:{workspaceName:'Моя команда',displayName:'Пользователь',compact:false},activity:[{id:uid(),text:'Открыт демонстрационный проект',at:new Date().toISOString()}]};
 }
